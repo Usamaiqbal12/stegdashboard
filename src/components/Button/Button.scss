@@ -1,0 +1,32 @@
+@import "../../variables";
+.common-btn {
+    font-size: 16px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 197px;
+    height: 54px;
+    margin-top: 35px;
+    padding: 15px;
+    border: none;
+    background-color: #0060f0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    border: 1px solid #0060f0;
+    color: #fff;
+    img {
+        display: inline-block;
+        width: 16px;
+        margin-right: 20px;
+    }
+    &:hover {
+        background-color: #fff;
+        border: 1px solid #0060f0;
+        color: #0060f0;
+    }
+    &:focus {
+        outline: none;
+    }
+}

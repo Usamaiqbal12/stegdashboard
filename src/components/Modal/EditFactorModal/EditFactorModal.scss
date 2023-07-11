@@ -1,0 +1,78 @@
+.modal-lg {
+  max-width: 1000px;
+  .edit-factor {
+    width: 100%;
+    h3 {
+      font-size: 20px;
+      line-height: 37px;
+      color: #000000;
+      padding-left: 1.5rem;
+      padding-top: 2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    .edit-factor-table {
+      width: 100% !important;
+      thead {
+        tr {
+          th {
+            padding: 10px 15px 15px 15px;
+            font-size: 14px;
+            //   line-height: 16px;
+            color: #000000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            &:first-child {
+              padding-left: 25px;
+            }
+          }
+        }
+      }
+      tbody {
+        h4 {
+          font-size: 18px;
+          line-height: 25px;
+          color: #000000;
+          padding-left: 25px;
+          padding-top: 1rem;
+          padding-bottom: 0.5rem;
+
+          // padding-bottom: 1rem;
+        }
+        tr {
+          td {
+            font-size: 14px;
+            padding: 0px 15px 10px 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            text-align: left;
+            &:first-child {
+              padding-left: 25px;
+            }
+            &:nth-child(2) {
+              max-width: 250px;
+              padding-top: 0.2rem;
+            }
+          }
+        }
+      }
+    }
+    .edit-factor-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+
+      .common-btn {
+        background: #0060f0;
+        box-shadow: 2px 7px 60px rgba(249, 139, 46, 0.1);
+        border-radius: 10px;
+        margin-bottom: 6rem;
+        width: 202px;
+        cursor: pointer;
+        &:hover {
+          background-color: #fff;
+          border: 1px solid #0060f0;
+          color: #0060f0;
+        }
+      }
+    }
+  }
+}

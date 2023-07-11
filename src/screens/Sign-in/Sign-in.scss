@@ -1,0 +1,76 @@
+@import "../../variables";
+.SignIn-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .image {
+        margin-bottom: 120px;
+        text-align: center;
+    }
+    .form {
+        width: 53%;
+        margin: auto;
+
+        .Heading {
+            .heading-1 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 42px;
+                color: #241f20;
+            }
+            .heading-2 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 42px;
+                color: #241f20;
+            }
+        }
+    
+        .form-floating {
+            margin-top: 20px;
+            label {
+                color: #241f20;
+                font-weight: 500;
+            }
+        }
+        .form-floating > .form-control,
+        .form-floating > .form-select {
+            height: calc(4rem + 12px);
+        }
+        .form-floating > .form-control:focus ~ label,
+        .form-floating > .form-control:not(:placeholder-shown) ~ label,
+        .form-floating > .form-select ~ label {
+            opacity: 0.65;
+            transform: scale(0.85) translateY(-1rem) translateX(0.15rem);
+        }
+        .pass {
+            margin-top: 20%;
+            color: #241f20;
+            a {
+                color: #241f20;
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: 500;
+            }
+        }
+        .account {
+            margin-top: 20%;
+            color: #241f20;
+            font-weight: 500;
+            a {
+                color: #0060f0;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.hide-div{
+    display: none;
+}

@@ -1,0 +1,187 @@
+.step1{
+    height: 100%;
+    .step1-div2{
+        margin-top: 20px;
+    }
+    
+}
+
+.step2 {
+    height: 280px;
+   .step2-p1{
+       color: #8f8f8f;
+   }
+    .file-upload-div{
+       height: inherit;
+        .custom-file-upload {
+            background-color:#f5f5f5;
+            border: 1px dashed #bababa;
+           height: 90%;
+            color: #8f8f8f;
+            font-size: 14px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            input[type="file"] {
+                display: none;
+            }
+            svg{
+                margin-right: 15px;
+            }
+            span{
+                color: #0060f0;
+            }
+            .step2-p2{
+                font-size: 12px;
+                color: #bababa;
+            }
+        }
+    }
+   .custom-file-upload:active{
+    background-color:  #fef3ea;
+    border: 1px dashed #0060f0;
+   }
+    .images-div {
+        position: relative;
+        .del-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #FFB5B5;
+            color: #FF6A6A;
+            border-radius: 50px;
+            border: none;
+            width: 20px;
+            font-size: 8px;
+            height: 20px;
+            font-weight: bold;
+        }
+    }
+    .images {
+        display: flex;
+        flex: wrap;
+        align-items: center;
+        justify-content: left;
+        img {
+            width: 178px;
+            height: 100px;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
+}
+
+.step3 {
+    .step3-div1{
+        .step3-p {
+            font-size: 14px;
+            color: #8f8f8f;
+            span {
+                color: #ff6a6a;
+                margin-left: 15px;
+                font-weight: 600;
+            }
+        }
+        .slider-main-image{
+            img{
+              height: 238px;
+            }
+           
+        }
+    }
+   
+    .step3-div2 {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .step3-div2-1 {
+            flex: 1;
+        }
+        .step3-div2-2 {
+            display: flex;
+            justify-content: space-between;
+            p {
+                font-size: 14px;
+                color: #ff6a6a;
+                font-weight: 600;
+            }
+            button {
+                background-color: #0060f0;
+                box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                color: white;
+                width: 166px;
+                height: 45px;
+                border: none;
+            }
+        }
+    }
+    .step-slider{
+        margin-top: 40px;
+        .slider-image-div{
+            position: relative;
+            img{
+               width: inherit;
+            //   padding-right: 20px;
+            }
+            .slider-check-div{
+                background-color : rgba(134, 205, 116, 0.5);
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 20;
+                left: 0;
+                width: inherit;
+                justify-content: center;
+                align-items: center;
+                font-size: 22px;
+                color: white;
+                display: none;
+               
+            }
+        }
+       
+    }
+    .slick-slide{
+        padding-right: 20px
+    }
+    .slick-slide.slick-cloned{
+        padding-right: 20px;
+    }
+    .slick-slide.slick-active{
+        padding-right: 20px;
+    }
+    .slick-slide.slick-active.slick-current{
+        padding-right: 20px;
+        .slider-check-div{
+            display: flex;
+        }
+    }
+}
+
+.step4{
+    height: 280px;
+    .step4-heading{
+        span{
+            color: #8f8f8f;
+        }
+       
+    }
+    .step4-divs{
+        height: 80%;
+        .step4-div-1{
+            height: 100%;
+            textarea{
+                border: none;
+                height: 100%;
+            }
+            .text-label{
+                display: none;
+            }
+        }
+    }
+    
+}

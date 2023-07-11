@@ -1,0 +1,23 @@
+.Tick-btun {
+  background-color: #ddebff;
+  border-radius: 6px;
+  border: none;
+  .tick-text {
+    display: none;
+  }
+  &:hover > .tick-text {
+    display: block;
+    cursor: pointer;
+  }
+  &:hover > .tick-icon {
+    display: none;
+    cursor: pointer;
+  }
+}
+
+.Tick-btun:hover {
+  background-color: #ddebff;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1e73ec !important;
+}

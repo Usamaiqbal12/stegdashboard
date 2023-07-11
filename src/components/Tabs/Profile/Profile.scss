@@ -1,0 +1,216 @@
+.profile-container {
+  margin-top: 2rem;
+  .profile-heading {
+    color: #090b0b;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  .profile {
+    @media screen and (min-width: 1024px) and (max-width: 1280px) {
+      padding: 20px;
+    }
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06),
+      0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+
+    height: inherit;
+    // min-height: 100vh;
+    //   overflow-y: scroll;
+    &::-webkit-scrollbar-track {
+      background: white !important;
+    }
+    &::-webkit-scrollbar {
+      width: 6px;
+      margin-right: 20px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 60px;
+      background-color: #bababa;
+    }
+    .form-floating {
+      ::placeholder {
+        color: rgba(9, 11, 11, 0.3);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      :-ms-input-placeholder {
+        color: rgba(9, 11, 11, 0.3);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+      ::-ms-input-placeholder {
+        color: rgba(9, 11, 11, 0.3);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+    .profile-h3 {
+      padding: 25px 35px 20px 35px;
+      // padding-bottom: 20px;
+      font-size: 14px;
+      color: black;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    .p-2 {
+      margin-top: 0px;
+    }
+    .profile-input1 {
+      width: 100%;
+      .names {
+        display: flex;
+        .box1,
+        .box2 {
+          width: 40%;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 12px;
+          color: #8f8f8f;
+          &:last-child {
+            color: #343434;
+            font-size: 16px;
+          }
+        }
+      }
+      // @media screen and (min-width:1024px) and (max-width:1280px),
+      // screen and (min-width:1281px) and (max-width:1500px){
+      //     width: 65%;
+      // }
+      margin-top: 35px;
+      // width: 50%;
+      .form-floating {
+        .form-control {
+          border: none;
+          background: #f4f1ef;
+          border-radius: 16px;
+        }
+        label {
+          margin-bottom: 6px;
+          color: #090b0b;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 20px;
+        }
+      }
+    }
+    .profile-input {
+      margin-top: 24px;
+      justify-content: space-between;
+      .p-i-div {
+        width: 50%;
+      }
+      .form-floating > label {
+        margin-bottom: 6px;
+
+        color: #090b0b;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+      }
+    }
+    .profile-input3 {
+      margin-top: 45px;
+      margin-bottom: 45px;
+      p {
+        margin: revert;
+      }
+      .form-floating > label {
+        margin-bottom: 6px;
+        color: #090b0b;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+      }
+    }
+    .delete-row {
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 24px 0px;
+      // padding: 40px 2px;
+      margin-top: 24px;
+    }
+    .profile-delete {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .dp-1 {
+        color: #090b0b;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin: 0;
+      }
+      .dp-2 {
+        color: rgba(9, 11, 11, 0.7);
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 0;
+      }
+      .p-delete-btn {
+        background: #fcecec;
+        border-radius: 10px;
+        border-color: transparent;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #dd1212;
+        height: 54px;
+        font-weight: bold;
+        width: 186px;
+        &:hover {
+          background-color: #ff6a6a;
+          color: #fff;
+        }
+      }
+    }
+    .profile-save {
+      text-align: right;
+      .common-btn {
+        margin-top: 24px;
+        background: #0060f0;
+        box-shadow: 2px 7px 60px rgba(249, 139, 46, 0.1);
+        border-radius: 10px;
+        float: right;
+        width: 186px;
+        height: 54px;
+        &:hover {
+          background-color: #fff;
+          border: 1px solid #0060f0;
+          color: #0060f0;
+        }
+      }
+    }
+  }
+}
+.form-control {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(9, 11, 11, 0.9);
+}

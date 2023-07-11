@@ -1,0 +1,202 @@
+.newprojectpage {
+  padding: 30px 30px;
+  //background: #fffcf9;
+  border-radius: 30px;
+  margin-left: 0.6rem;
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    padding: 30px 12px;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    padding: 30px 12px;
+  }
+  button {
+    float: right;
+  }
+  .data-p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #2e3034;
+  }
+  .data-divs {
+    display: flex;
+    gap: 18px;
+
+    .search {
+      width: 322px;
+      height: 46px;
+      background: #ffffff;
+      border: 1px solid #f5f1ef;
+      border-radius: 10px;
+      display: flex;
+      font-size: 14px;
+      line-height: 16px;
+      color: #aaaeb9;
+      padding: 10px 15px 10px 15px;
+      .search-icon {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        color: #aaaeb9;
+        width: 40px;
+        border: none;
+        background-color: #fff;
+      }
+      input {
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+      }
+      input:focus {
+        outline: none;
+      }
+    }
+    .side-icons {
+      width: 38px;
+      height: 38px;
+      background: white;
+      box-shadow: 2px 6px 30px rgba(0, 0, 0, 0.06);
+      border-radius: 4px;
+      margin-top: 0.2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+      .notification-circle {
+        width: 9px;
+        height: 9px;
+        background: #0060f0;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
+        position: absolute;
+        top: 25%;
+        right: 25%;
+      }
+    }
+  }
+}
+
+.btns-div {
+  display: flex;
+  // flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  .bottom-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    // padding-top: 5px;
+  }
+  .activation-btun {
+    width: 120px;
+    height: 36px;
+  }
+  .deactivation-btun {
+    width: 120px;
+    height: 36px;
+  }
+  .Tick-btun {
+    width: 57px;
+    height: 36px;
+  }
+  .pencil-btun {
+    width: 57px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.status-div {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+table.dataTable > thead .sorting_asc:before {
+  content: " " !important;
+}
+table.dataTable > thead tr .sorting_asc:after {
+  content: " " !important;
+}
+table.dataTable > thead .sorting_desc:before {
+  content: " " !important;
+}
+table.dataTable > thead tr .sorting_desc:after {
+  content: " " !important;
+}
+table.dataTable > thead .sorting:before {
+  content: " " !important;
+}
+table.dataTable > thead tr .sorting:after {
+  content: " " !important;
+}
+.commonTable {
+  width: 100% !important;
+  @media (min-width: 726px) and (max-width: 1300px) {
+    min-width: 1300px;
+    overflow-x: scroll;
+  }
+
+  thead {
+    padding: 0px 1.5rem;
+
+    tr {
+      th {
+        padding: 10px 15px;
+        text-align: left;
+        line-height: 16px;
+        color: #000000;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        .sorting_asc::before {
+          content: " " !important;
+        }
+        .sorting_asc::after {
+          content: " " !important;
+        }
+        &:first-child {
+          padding-left: 20px;
+          @media screen and (min-width: 1300px) and (max-width: 1400px) {
+            padding-left: 15px;
+          }
+        }
+        &:last-child {
+          padding-right: 20px;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      padding: 0px;
+      td {
+        padding: 20px 15px;
+        color: #1a1a1c;
+        text-align: left;
+        background-color: #fff;
+        border-bottom: 1px solid #e5e5e5;
+
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        &:first-child {
+          padding-left: 20px;
+        }
+        // &:last-child {
+        //   padding-right: 20px;
+        // }
+        &:nth-child(2) {
+          max-width: 250px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.links {
+  margin-top: -10px;
+  display: inline-block;
+}

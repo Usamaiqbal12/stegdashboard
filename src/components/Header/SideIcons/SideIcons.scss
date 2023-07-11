@@ -1,0 +1,90 @@
+.icon {
+    position: relative;
+    .icon-1 {
+        background-color: white;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            background-color: #0060f0;
+            cursor: pointer;
+            & > svg {
+                color: #fff !important;
+            }
+        }
+        svg {
+            color: #bababa;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.icon-1-notification {
+    background-color: #fff;
+    position: absolute;
+    width: 429px;
+    height: 463px;
+    top: 50px;
+    right: 0px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #bababa;
+    z-index: 99;
+    .icon-1-nh {
+        padding: 35px;
+        border-bottom: 2px solid #0060f0;
+    }
+    .icon-1-nl {
+        overflow-y: scroll;
+        height: calc(100% - 80px);
+        margin-right: 10px;
+        &::-webkit-scrollbar-track {
+            background: white !important;
+        }
+        &::-webkit-scrollbar {
+            width: 6px;
+            margin-right: 20px;
+        }
+        &::-webkit-scrollbar-thumb {
+            border-radius: 60px;
+            background-color: #bababa;
+        }
+        .icon-1-nl-i {
+            text-align: left;
+            padding-right: 20px;
+            padding-top: 20px;
+            cursor: pointer;
+            // display: inline-block;
+            // padding-left: 35px;
+
+            &:hover {
+                cursor: pointer;
+                & > p:first-child {
+                    color: #0060f0 !important;
+                    // font-weight: 600;
+                    // font-size: 16px;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                padding-left: 30px;
+            }
+            .p-nl,
+            .p-cl {
+                color: #bababa;
+                text-align: right;
+            }
+        }
+        hr {
+            //    margin-right: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            background-color: #bababa;
+            height: 2px;
+        }
+    }
+}

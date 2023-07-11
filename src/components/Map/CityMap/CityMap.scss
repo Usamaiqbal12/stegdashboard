@@ -1,0 +1,62 @@
+.city-map {
+  // display: flex;
+  // justify-content: space-between;
+  .citymapd2 {
+    display: flex;
+  }
+  .city-map-div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    .cm-divs {
+      background-color: #f9fbfc;
+      border-left: 4px solid #0060f0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 25px;
+      height: 30%;
+      .cm-p-1 {
+        color: #8f8f8f;
+        font-size: 14px;
+        margin: 0;
+      }
+      .cm-p-2 {
+        font-size: 32px;
+        font-weight: 600;
+      }
+    }
+  }
+  .city-map-div3 {
+    background-color: #f9fbfc;
+    border-left: 4px solid #0060f0;
+    padding-left: 25px;
+    // width: 30%;
+    flex: 1;
+    margin-left: 20px;
+    .cm-d-p {
+      color: #8f8f8f;
+      font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 15px;
+    }
+    .progress {
+      background-color: #f9fbfc;
+      border-radius: none;
+      overflow: visible;
+      margin-top: 25px;
+      .progress-bar {
+        background-color: #0060f0;
+        height: 6px;
+      }
+      .progress-percent {
+        padding-top: 4px;
+        margin-left: 10px;
+      }
+    }
+  }
+}

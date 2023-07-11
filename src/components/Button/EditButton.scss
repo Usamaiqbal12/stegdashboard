@@ -1,0 +1,29 @@
+.pencil-btun {
+  background-color: #fff8dd;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .edit-text {
+    display: none;
+  }
+}
+.pencil-btun:hover {
+  background-color: #fff8dd;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ebb814;
+  outline: none;
+
+  .edit-text {
+    display: block;
+    color: #ebb814;
+    cursor: pointer;
+  }
+  .edit-icon {
+    cursor: pointer;
+    display: none;
+  }
+}

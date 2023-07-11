@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dashboard {
+  .div-sidebar {
+    background-color: #ffff;
+    transition: all 0.3s;
+    min-width: 250px;
+    padding: 0 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .content {
+    flex: 1;
+    transition: all 0.3s;
+    width: 100% !important;
+  }
+  .sidebar-main-div {
+    width: 22% !important;
+  }
+  .close {
+    width: 0px;
+    overflow: hidden;
+  }
+  .closeSide {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+  }
+}

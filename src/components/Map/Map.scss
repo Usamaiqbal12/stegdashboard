@@ -1,0 +1,24 @@
+.map{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  
+    .map-div-1{
+        border-bottom: 1px solid #0060f0;
+        padding: 50px 50px 25px 50px;
+        @media screen and (min-width:1024px) and (max-width:1280px){
+            padding: 12px 12px 12px 12px;
+        }
+        .map-city-p{
+            margin-left: 100px;
+        }
+    }
+    .map-div-2{
+        padding: 50px 50px 25px 50px;
+        @media screen and (min-width:1024px) and (max-width:1280px){
+            padding: 12px 12px 12px 12px;
+        }
+    }
+}

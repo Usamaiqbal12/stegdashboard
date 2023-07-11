@@ -1,0 +1,85 @@
+@import "../../variables";
+.Register-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    .logo {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .logo-upper {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .cen{
+    text-align: center !important;
+    }
+    .form {
+      width: 53%;
+      margin: auto;
+  
+      .Heading {
+        .heading-1 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 36px;
+          line-height: 42px;
+          color: #241f20;
+        }
+        .heading-2 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 42px;
+          color: #241f20;
+        }
+      }
+      .form-floating {
+        margin-top: 20px;
+  
+        label {
+          font-size: 16px;
+          color: #241f20;
+          font-weight: 500;
+        }
+      }
+      // .form-floating > .form-control,
+      // .form-floating > .form-select {
+      //   height: calc(4rem + 12px);
+      // }
+      // .form-floating > .form-control:focus ~ label,
+      // .form-floating > .form-control:not(:placeholder-shown) ~ label,
+      // .form-floating > .form-select ~ label {
+      //   opacity: 0.65;
+      //   transform: scale(0.85) translateY(-1rem) translateX(0.15rem);
+      // }
+      .check-box {
+        margin-top: 35px;
+        color:  #241f20;
+        font-weight: 500;
+        input {
+          margin-right: 25px;
+        }
+        .text-color {
+          color: $background-color;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      }
+      .account {
+        margin-top: 72px;
+        color:  #241f20;
+        font-weight: 500;
+        a {
+          color: $background-color;
+          font-size: 16px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  

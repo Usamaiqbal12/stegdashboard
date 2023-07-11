@@ -1,0 +1,15 @@
+export * from './Landing';
+export * from './Dashboard';
+export * from './Project';
+export * from './LiveProject';
+export * from './Settings';
+export * from './LiveProjectDetails';
+export { default as ProcessingList } from './ProcessingList';
+export { default as CreateProject } from './CreateProject';
+export { default as EditProject } from './EditProject';
+// export * from './ForgetPassword';
+// export * from './ForgetPassword/index';
+export { default as CreateNewPassword } from './CreateNewPassword';
+export { default as ForgetPassword } from './ForgetPassword';
+export { default as Register } from './Register';
+export { default as SignIn } from './Sign-in';

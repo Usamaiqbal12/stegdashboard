@@ -1,0 +1,95 @@
+.modal-content {
+    .modal-body {
+        padding: 0;
+        position: relative;
+    }
+}
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 50%;
+    }
+}
+
+.new-project-form {
+    display: flex;
+    flex-direction: column;
+    min-height: 574px;
+    .new-project-header {
+        position: relative;
+        padding-top: 35px;
+        padding-left: 50px;
+        p {
+            font-size: 24px;
+        }
+        button {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+            border: none;
+            color: #8f8f8f;
+            font-weight: bold;
+        }
+    }
+    .step-detail {
+        font-size: 16px;
+        color: #8f8f8f;
+        margin-left: 20px;
+    }
+
+    .next-btn {
+        background-color: #0060f0;
+        box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        color: white;
+        border: none;
+        padding: 15px 60px;
+        margin-top: 20px;
+    }
+    .next-btn:disabled {
+        opacity: 0.5;
+    }
+    .next-btn:focus {
+        outline: none !important;
+    }
+
+    .progress {
+        height: 5px;
+        border-radius: none;
+        .progress-bar {
+            background-color: #0060f0;
+        }
+    }
+
+    .form {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        height: 100%;
+        .form-step-divs {
+            flex: 1;
+        }
+        .form-button-div {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .prev-btn {
+        background-color: white;
+        color: #0060f0;
+        border: 1px solid #0060f0;
+        padding: 15px 75px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .prev-btn:focus {
+        outline: none;
+    }
+}
+
+@import "./Steps";

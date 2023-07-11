@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?3o3i83");
+  src: url("fonts/icomoon.eot?3o3i83#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?3o3i83") format("truetype"),
+    url("fonts/icomoon.woff?3o3i83") format("woff"),
+    url("fonts/icomoon.svg?3o3i83#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  /* speak: never; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-layers-black:before {
+  content: "\e907";
+}
+.icon-leftCarrot:before {
+  content: "\e908";
+  color: #ff6a6a;
+}
+.icon-pencil:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-plus:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-quote-left:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\e90b";
+  color: #0060f0;
+}
+.icon-Tick2:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-whitecircle:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e90e";
+  color: #bababa;
+}
+.icon-dashboardIcon:before {
+  content: "\e90f";
+  color: #bababa;
+}
+.icon-folderIcon:before {
+  content: "\e901";
+  color: #818790;
+}
+.icon-projectIcon:before {
+  content: "\e902";
+  color: #818790;
+}
+.icon-settingsIcon:before {
+  content: "\e903";
+  color: #818790;
+}
+.icon-notification:before {
+  content: "\e904";
+  color: #f1f1f1;
+}
+.icon-profile1:before {
+  content: "\e905";
+  color: #bababa;
+}
+.icon-lock:before {
+  content: "\e906";
+  color: #f1f1f1;
+}
