@@ -167,10 +167,12 @@ export const SideBar = ({ url, pathname }) => {
                 fill="black"
               />
             </svg>
-            <div className="user-front-div">
-              {firstName.charAt(0)}
-              {lastName.charAt(0)}
-            </div>
+            <NavLink to={`${url}/setting`}>
+              <div className="user-front-div">
+                {firstName.charAt(0)}
+                {lastName.charAt(0)}
+              </div>
+            </NavLink>
           </div>
           <button className="btn-toggle ml-3 btn">
             <i className="icon-layers-black"></i>
